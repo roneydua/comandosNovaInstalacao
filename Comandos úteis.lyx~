@@ -1,0 +1,406 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "tgadventor" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Comando Importantes Pós Instalação
+\end_layout
+
+\begin_layout Itemize
+Erro da central de programa no Dark-Theme
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+sudo gedit /usr/share/software-center/ui/gtk3/css/softwarecenter.css
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Edite as seguintes linhas
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+@define-color light-aubergine #DED7DB;
+\end_layout
+
+\begin_layout Plain Layout
+@define-color super-light-aubergine #F4F1F3;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mudando para
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+@define-color light-aubergine #0a0a0a; 
+\end_layout
+
+\begin_layout Plain Layout
+@define-color super-light-aubergine #1a1a1a;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Programas essenciais
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+sudo add-apt-repository ppa:noobslab/icons -y && sudo add-apt-repository
+ ppa:peterlevi/ppa -y && sudo add-apt-repository ppa:webupd8team/java -y
+ && sudo apt-get update && sudo apt-get install synaptic vlc youtube-dl
+ clementine libnss3-tools thunderbird gimp ultra-flat-icons ultra-flat-icons-gre
+en flashplugin-installer python-gtk2 variety variety-slideshow caffeine
+ -y
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pacotes essenciais do Lyx
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Instalação deve ser feita pelo synaptic
+\end_layout
+
+\begin_layout Itemize
+texlive-bibtex-extra 
+\end_layout
+
+\begin_layout Itemize
+texlive-lang-portuguese 
+\end_layout
+
+\begin_layout Itemize
+aspell-pt-br
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Configuração do Lyx
+\end_layout
+
+\begin_layout Subsection
+Preâmbulo para arquivos visualizados na tela do computador
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+usepackage{fancyhdr}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+usepackage{graphicx}
+\end_layout
+
+\begin_layout Plain Layout
+%
+\backslash
+usepackage{graphics}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+pagestyle{fancy}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+date{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+lhead{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+chead{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+author{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+rhead{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+lfoot{}
+\end_layout
+
+\begin_layout Plain Layout
+%
+\backslash
+cfoot{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+rfoot{Matéria}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+renewcommand{
+\backslash
+headrulewidth}{0.0pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+renewcommand{
+\backslash
+footrulewidth}{0.0pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+newcommand{
+\backslash
+volume}{
+\backslash
+mathop{
+\backslash
+ooalign{
+\backslash
+hfil$V$
+\backslash
+hfil
+\backslash
+cr
+\backslash
+kern0.08em–
+\backslash
+hfil
+\backslash
+cr}}
+\backslash
+nolimits}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
