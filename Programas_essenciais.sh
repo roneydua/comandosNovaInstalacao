@@ -3,22 +3,15 @@
 ./corrigeProblemaSudo.sh
 # instala player de musica clementine
 apt-get install clementine synaptic tmux hplip-gui vlc p7zip pdftk youtube-dl conky -y
+#programas latex
+./latex_install.sh
 
 # configura o conky
 cp conky/conky.conf /etc/conky/
 # Configura o tmux com temas
-# cp tmuxConfiguracao/.tmux* ~/
-
-# Configura o spacemacs
-cp ../emacsConfiguracao/.emacs.d/ ~/ -R
 
 # corrige autocompletar
-AutoCompletar.sh
-
-#programas latex
-apt-get install lyx texlive-fonts* texlive-science* texlive-lang-portuguese -y
-# apt-get install texlive-full
-
+./AutoCompletar.sh
 
 apt-get dist-upgrade -y
 apt-get autoclean -y
