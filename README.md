@@ -1,9 +1,9 @@
 
 # Scrips para instação de programas básicos
-O script [Programas_essenciais.sh](Programas_essenciais.sh) obteve exito nas distribuições mais recentes do Debian 64-bits.
+O script `Programas_essenciais.sh` obteve exito nas distribuições mais recentes do Debian 64-bits.
 
 # Mudanças feitas:
-  1. Adiciona o usuário sudo á lista de usuários com o scripti [corrigeProblemaSudo.sh](corrigeProblemaSudo.sh);
+  1. Adiciona o usuário sudo á lista de usuários com o scripti `corrigeProblemaSudo.sh`;
   2. Ativa a função autocompletar no Terminal Shell com o script `autocompletar.sh`.
 
 # Programas instalados:
@@ -17,11 +17,10 @@ O script [Programas_essenciais.sh](Programas_essenciais.sh) obteve exito nas dis
   8. Progrma para baixar vídeos youtube-dl
   9. Monitor de sistema Conky
   10. Edito de Texto Lyx
-
     - texlive-fonts*;
     - texlive-science; e
     - texlive-lang-portuguese.
-    - Adiciona o dicionário de sinonimos na pasta correta do sistema. 
+    - Adiciona o dicionário de sinonimos na pasta correta do sistema.
 
 # Configura os programas
 - Copia as configurações do Conky na pasta [conky](conky/conky.config)
