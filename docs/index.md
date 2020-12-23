@@ -7,6 +7,7 @@ O script `Programas_essenciais.sh` obteve exito nas distribuições mais recente
   2. Ativa a função autocompletar no Terminal Shell com o script `autocompletar.sh`.
 
 # Programas instalados:
+
 1. Player de música Clementine
 2. Gerenciado de pacotes Synaptic
 3. Terminal tmux
@@ -21,6 +22,7 @@ O script `Programas_essenciais.sh` obteve exito nas distribuições mais recente
   - texlive-science;
   - texlive-lang-portuguese; e
   - Adiciona o dicionário de sinonimos na pasta correta do sistema.
+
 
 # Configura os programas
 - Copia as configurações do Conky na pasta [conky](conky/conky.config)
