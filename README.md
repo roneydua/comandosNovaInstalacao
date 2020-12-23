@@ -18,10 +18,10 @@ O script `Programas_essenciais.sh` obteve exito nas distribuições mais recente
 8. Progrma para baixar vídeos youtube-dl
 9. Monitor de sistema Conky
 10. Edito de Texto Lyx com as seguintes depedências:
-  - texlive-fonts*;
-  - texlive-science;
-  - texlive-lang-portuguese; e
-  - Adiciona o dicionário de sinonimos na pasta correta do sistema.
+  * texlive-fonts*;
+  * texlive-science;
+  * texlive-lang-portuguese; e
+  * Adiciona o dicionário de sinonimos na pasta correta do sistema.
 
 
 # Configura os programas
