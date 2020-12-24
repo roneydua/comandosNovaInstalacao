@@ -1,5 +1,5 @@
 
-# Scrips para instação de programas básicos
+# Scrips para instalação de programas básicos
 O script `Programas_essenciais.sh` obteve exito nas distribuições mais recentes do Debian 64-bits.
 
 # Mudanças feitas:
@@ -15,13 +15,13 @@ O script `Programas_essenciais.sh` obteve exito nas distribuições mais recente
 5. Reprodutor de mídia VLC
 6. Compactador p7zip
 7. Manipulador de PDFs pdftk
-8. Progrma para baixar vídeos youtube-dl
+8. Programa para baixar vídeos youtube-dl
 9. Monitor de sistema Conky
-10. Edito de Texto Lyx com as seguintes depedências:
+10. Edito de Texto Lyx com as seguintes dependências:
     - texlive-fonts*;
     - texlive-science;
     - texlive-lang-portuguese; e
-    - Adiciona o dicionário de sinonimos na pasta correta do sistema.
+    - Adiciona o dicionário de sinônimos na pasta correta do sistema.
 11. IPE -- criador de figuras para latex
 
 # Configura os programas
