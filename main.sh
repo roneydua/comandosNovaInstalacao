@@ -1,8 +1,8 @@
 #! /bin/bash
-## adicionar usuario a lista sudoers echo "SEUUSUARIO ALL=(ALL:ALL)ALL">>/etc/sudoers
-./corrigeProblemaSudo.sh
+## adicionar usuario a lista sudoers echo "SEUUSUARIO 
+./corrige_problema_sudo.sh
 # instala player de musica clementine
-apt-get install clementine synaptic tmux hplip-gui vlc p7zip pdftk youtube-dl conky -y
+./Programas_essenciais.sh
 #programas latex
 ./latex_install.sh
 # configura o conky
@@ -10,7 +10,7 @@ cp conky/conky.conf /etc/conky/
 # Configura o tmux com temas
 
 # corrige autocompletar
-./AutoCompletar.sh
+./auto_completar.sh
 
 apt-get dist-upgrade -y
 apt-get autoclean -y
