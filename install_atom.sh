@@ -1,6 +1,7 @@
 #!/bin/sh
-echo "Download instalador"
+echo "Instalando o Clang"
 apt install clang -y
+echo "Download instalador"
 wget -P atom_instalacao https://atom.io/download/atom-amd64.deb
 dkpg -i pacotes.deb
 apt install -f
@@ -10,4 +11,5 @@ apt install -f
 # Para recuperar rode o comando
 # [Creditos](https://stackoverflow.com/a/37625610/12298547)
 runuser - roney -c 'apm install --packages-file Dropbox/ComandosNovaInstalacao/atom_instalacao/pacotes.list'
+./installEigen.sh
 exit
