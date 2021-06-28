@@ -1,0 +1,211 @@
+Pacotes para instalação perfeita
+
+babel 
+texlive-lang-portuguese
+aspell-pt-br
+texlive-bibtex-extra
+
+
+Colar para criar a capa de trabalhos
+
+
+\begin{titlepage} 
+\begin{center} {\large \textbf {UNIVERSIDADE FEDERAL DO ABC}}\\[0.2cm] {\large Bacharelado em Ciência e Tecnologia}\\[0.2cm] {\large Nome do departamento}\\[0.2cm] {\large Nome do Curso}\\[0.2cm] {\large Nome da disciplina}\\[5.1cm] {\bf \huge TÍTULO DO TRABALHO}\\[5.1cm] {\large Aluno(a):}\\[0.7cm] {\large Professor:}\\[4.1cm] {\large Cidade}\\[0.2cm] {\large Ano} \end{center} \end{titlepage}
+
+outra
+
+\begin{titlepage}  \begin{center} {\large \textbf {UNIVERSIDADE FEDERAL DO ABC}}\\[0cm] {\large Bacharelado em Ciência e Tecnologia}\\[0.2cm] {\large Introdução à Astronáutica}\\[5.4cm] {\bf \huge Telescópio Hubble}\\[5.1cm] {\large Roney Duarte da Silva}\\[9.3 cm]  {\large São Bernardo do Campo -2015}\\[0.2cm] \end{center} \end{titlepage}
+
+
+preambulo para trabalhos academicos
+
+%\usepackage{fancyhdr}
+%\usepackage{graphicx}
+\renewcommand{\jbbtasep}{ e } 
+%\renewcommand{\jbbfsasep}{ **** }
+
+\renewcommand{\bibbtasep}{; }
+%\renewcommand{\bibbtsep}{------- }
+%\renewcommand{\bibjtsep}{*** }
+
+%\usepackage{graphics}
+%\pagestyle{fancy}
+%\date{\today}
+%\lhead{Esquerda do Cabeçalho}
+\usepackage{indentfirst}
+%\chead{}
+%\author{Roney Duarte}
+%\rhead{Direita do Cabeçalho}
+%\lfoot{}
+%\cfoot{Centro do Rodapé}
+%\rfoot{}
+%\renewcommand{\headrulewidth}{0.02pt}
+%\renewcommand{\footrulewidth}{0.02pt}
+
+
+***************************************************
+
+
+
+
+Para criar um layout para listas de exercícios
+
+Colar no preambulo as seguintes linhas:
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\lhead{Esquerda do Cabeçalho}
+\chead{matéria}
+\author{Roney Duarte da Silva}
+%\rhead{Direita do Cabeçalho}
+\lfoot{UFABC-SBC}
+%\cfoot{Centro do Rodapé}
+%\rfoot{Direita do Rodapé}
+%\renewcommand{\headrulewidth}{2pt}
+%\renewcommand{\footrulewidth}{2pt}
+%\renewcommand\theenumi{(\alph{enumi})} % muda numeração para alpfa numerico
+
+
+\usepackage{indentfirst}  % primeiro parágrafo com indentação
+
+
+
+
+
+Escolher classe "Artigo de classe padrão(com mais tamanhos de fontes)
+
+
+***************************************************
+Para Criar uma apresentação
+
+%para numerar as figuras
+%\renewcommand\theenumi{(\alph{enumi})} % muda numeração para alpfa numerico
+\setbeamertemplate{caption}[numbered]
+\usepackage{listings}
+\usetheme{Warsaw}
+% or ...
+%\usetheme{Antibes}	% tree outline, neat
+%\usetheme{JuanLesPins}	% like Antibes, with shading
+%\usetheme{Bergen}	% outline on side
+%\usetheme{Luebeck}	% like Warsaw, square sides
+%\usetheme{Berkeley}	% interesting left bar outline
+%\usetheme{Madrid}	% clean, nice.  7/12 page numbers
+%\usetheme{Berlin}	% dots show slide number
+%\usetheme{Malmoe}	% OK, plain, unshaded
+%\usetheme{Boadilla}	% nice, white bg, no top bar
+%\usetheme{Marburg}	% nice, outline on right
+%\usetheme{boxes}	% ???
+%\usetheme{Montpellier}	% tree outline on top, plainish white
+%\usetheme{Copenhagen}	% like Warsaw
+%\usetheme{PaloAlto}	% looks good
+%\usetheme{Darmstadt}	% like Warsaw with circle outline
+%\usetheme{Pittsburgh}
+%\usetheme{default}
+%\usetheme{Rochester}	% like boxy, unshaded warsaw
+%\usetheme{Dresden}	% circle outline on top
+%\usetheme{Singapore}	% purple gradient top
+%\usetheme{Frankfurt}	% like Warsaw with circle outline on top
+%\usetheme{Szeged}
+%\usetheme{Goettingen}	% light purple right bar outline
+%\usetheme{Warsaw}
+%\usetheme{Hannover}	% like Goett with bar on left
+%\usetheme{compatibility}
+%\usetheme{Ilmenau}
+
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+\usecolortheme{beaver}
+%\usecolortheme{seahorse}
+%\usecolortheme{rose}
+
+% seems to fix typewriter font in outline header:
+\usepackage{ae,aecompl}
+
+
+***************************** Inserir programa ***********
+
+
+Colar no preambulo
+*******************************
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+***************** 
+
+e incluir o script ou função com \lstinputlisting{NOME_DO_PROGRAMA.m}
+****************
+
+**************** Corrigir bug de fontes Typerwriter%%%%%%%%%%
+\usepackage{blindtext}
+\usepackage{everysel}
+\renewcommand*\familydefault{\ttdefault}
+\EverySelectfont{%
+\fontdimen2\font=0.4em% interword space
+\fontdimen3\font=0.2em% interword stretch
+\fontdimen4\font=0.1em% interword shrink
+\fontdimen7\font=0.1em% extra space
+\hyphenchar\font=`\-% to allow hyphenation
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Cofiguracao da bibliografia
+%%% configuracao das citacoes
+
+\usepackage{jurabib}
+\jurabibsetup{
+authorformat={abbrv},%abrevia nome do autor
+bibformat={numbered}} %numera bibliografia
+%corpo do texto
+\renewcommand{\jbbtasep}{ e } % bta = between two authors sep
+\renewcommand{\jbbfsasep}{, }% bfsa = between first and second author sep
+\renewcommand{\jbbstasep}{ e }% bsta = between second and third author sep
+%bibliografia
+\renewcommand{\bibbtasep}{ ; } %bta = between two authors sep
+\renewcommand{\bibbfsasep}{; } %bfsa = between first and second author sep
+\renewcommand{\bibbstasep}{ ; }%bsta = between second and third author sep
+
+%editors:
+\renewcommand{\bibbtesep}{ e } %bte = between two editors sep
+\renewcommand{\bibbfsesep}{, }%bfse = between first and second editor sep
+\renewcommand{\bibbstesep}{ e }%bste = between second and third editor sep
+
+
+%% configuração da vizualicao da bibliografia
+%nome dos autores
+\renewcommand{\biblnfont}{\MakeUppercase}
+\renewcommand{\bibfnfont}{}
+%editor
+\renewcommand{\bibelnfont}{\textit}
+\renewcommand{\bibefnfont}{\textit}
+%nome do livro
+\renewcommand{\bibtfont}{\textbf}
+\renewcommand{\bibbtfont}{\textbf}
+%nome do jornal
+\renewcommand{\bibjtfont}{}
+%nome do artigo
+\renewcommand{\bibapifont}{\textbf}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Colar no nome 
+Roney D. da Silva\\Universidade Federal do ABC, SBC

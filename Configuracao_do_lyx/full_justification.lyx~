@@ -1,0 +1,192 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extarticle
+\begin_preamble
+\sloppy
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\jbbtasep}{ e } 
+%\renewcommand{\jbbfsasep}{ **** }
+\renewcommand{\bibbtasep}{; }         %%%ajuste da bibliográfia
+\usepackage{indentfirst}  % primeiro parágrafo com indentação
+
+
+
+%% Cabecalhos %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lhead{Esquerda do Cabeçalho}
+%\chead{matéria}
+\author{Roney Duarte da Silva}
+\rhead{Otimização em Projetos de Estruturas}
+\lfoot{\bf UFABC-SBC}
+%\cfoot{Centro do Rodapé}
+%\rfoot{Direita do Rodapé}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{2pt}
+%\renewcommand\theenumi{(\alph{enumi})} % muda numeração para alpfa numerico
+
+
+
+%%% Ajuste do codigo matalba
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=6pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams-bytype
+theorems-ams-extended-bytype
+customHeadersFooters
+shapepar
+enumitem
+fixltx2e
+fix-cm
+minimalistic
+multicol
+\end_modules
+\maintain_unincluded_children false
+\language brazilian
+\language_package babel
+\inputencoding auto
+\fontencoding T1
+\font_roman "beraserif" "default"
+\font_sans "default" "default"
+\font_typewriter "txtt" "default"
+\font_math "eulervm" "auto"
+\font_default_family ttdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine jurabib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 1cm
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*
+\backslash
+familydefault{
+\backslash
+ttdefault} 
+\backslash
+EverySelectfont{% 
+\backslash
+fontdimen2
+\backslash
+font=0.4em% interword space 
+\backslash
+fontdimen3
+\backslash
+font=0.2em% interword stretch 
+\backslash
+fontdimen4
+\backslash
+font=0.1em% interword shrink 
+\backslash
+fontdimen7
+\backslash
+font=0.1em% extra space 
+\backslash
+hyphenchar
+\backslash
+font=`
+\backslash
+-% to allow hyphenation }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

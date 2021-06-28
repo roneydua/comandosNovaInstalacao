@@ -1,0 +1,322 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\author{Roney Duarte da Silva}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+%\setbeamersize{text margin left=01pt,text margin right=01pt}
+\renewcommand{\headrulewidth}{0pt}
+
+%para numerar as figuras
+%\renewcommand\theenumi{(\alph{enumi})} % muda numeração para alpfa numerico
+%\setbeamertemplate{caption}[numbered]
+
+%\usepackage{listings}
+%\transblindsvertical
+%\usetheme{CambridgeUS}
+\definecolor{verde}{rgb}{0, 89, 58}
+%\usetheme{Warsaw}
+\setbeamercolor{structure}{fg=black!70!verde}
+%\renewcommand{verde}{\footrulewidth}{2pt}
+
+\definecolor{structure}{rgb}{0.2,100,0.7}
+%\usetheme{AnnArbor}
+
+%\usetheme{Marburg}
+% or ...
+%\usetheme{Antibes}	% tree outline, neat
+%\usetheme{JuanLesPins}	% like Antibes, with shading
+%\usetheme{Bergen}	% outline on side
+%\usetheme{Luebeck}	% like Warsaw, square sides
+%\usetheme{Berkeley}	% interesting left bar outline
+%\usetheme{Madrid}	% clean, nice.  7/12 page numbers
+%\usetheme{Berlin}	% dots show slide number
+%\usetheme{Malmoe}	% OK, plain, unshaded
+%\usetheme{Boadilla}	% nice, white bg, no top bar
+%\usetheme{Marburg}	% nice, outline on right
+%\usetheme{boxes}	% ???
+%\usetheme{Montpellier}	% tree outline on top, plainish white
+%\usetheme{Copenhagen}	% like Warsaw
+\usetheme{PaloAlto}	% looks good
+%\usetheme{Darmstadt}	% like Warsaw with circle outline
+%\usetheme{Pittsburgh}
+%\usetheme{default}
+
+%\setbeamercovered{transparent}
+%\usepackage{indentfirst}  % primeiro parágrafo com indentação
+%\renewcommand\theenumi{(\alph{enumi})} % muda numeração para alpfa numerico
+%\usetheme{Rochester}	% like boxy, unshaded warsaw
+%\usetheme{Dresden}	% circle outline on top
+%\usetheme{Singapore}	% purple gradient top
+%\usetheme{Frankfurt}	% like Warsaw with circle outline on top
+%\usetheme{Szeged}
+%\usetheme{Goettingen}	% light purple right bar outline
+%\usetheme{Warsaw}
+%\usetheme{Hannover}	% like Goett with bar on left
+%\usetheme{compatibility}
+%\usetheme{Ilmenau}
+%\usepackage{listings}
+%\usecolortheme[named=blue]{structure}
+%\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+%\definecolor{seahorse}{rgb}{0.99,0,0}
+%\definecolor{whale}{rgb}{99,0,0}
+%\usecolortheme{beaver}
+%\usecolortheme{albatross}
+%\usecolortheme{whale}
+%\usecolortheme{seahorse}
+%\usecolortheme{rose}
+%\author{Roney Duarte da Silva}
+% seems to fix typewriter font in outline header:
+\usepackage{ae,aecompl}
+%\usepackage[]{mcode}
+
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%%% configuracao das citacoes
+
+\usepackage{jurabib}
+\jurabibsetup{
+authorformat={abbrv},%abrevia nome do autor
+bibformat={numbered}} %numera bibliografia
+%corpo do texto
+\renewcommand{\jbbtasep}{ e } % bta = between two authors sep
+\renewcommand{\jbbfsasep}{, }% bfsa = between first and second author sep
+\renewcommand{\jbbstasep}{ e }% bsta = between second and third author sep
+%bibliografia
+\renewcommand{\bibbtasep}{ ; } %bta = between two authors sep
+\renewcommand{\bibbfsasep}{; } %bfsa = between first and second author sep
+\renewcommand{\bibbstasep}{ ; }%bsta = between second and third author sep
+
+%editors:
+\renewcommand{\bibbtesep}{ e } %bte = between two editors sep
+\renewcommand{\bibbfsesep}{, }%bfse = between first and second editor sep
+\renewcommand{\bibbstesep}{ e }%bste = between second and third editor sep
+
+
+%% configuração da vizualicao da bibliografia
+%nome dos autores
+\renewcommand{\biblnfont}{\MakeUppercase}
+\renewcommand{\bibfnfont}{}
+%editor
+\renewcommand{\bibelnfont}{\textit}
+\renewcommand{\bibefnfont}{\textit}
+%nome do livro
+\renewcommand{\bibtfont}{\textbf}
+\renewcommand{\bibbtfont}{\textbf}
+%nome do jornal
+\renewcommand{\bibjtfont}{}
+%nome do artigo
+\renewcommand{\bibapifont}{\textbf}
+
+\usepackage{indentfirst}  % primeiro parágrafo com indentação
+
+%% Cabecalhos 
+\lhead{}
+%\chead{matéria}
+\rhead{}
+\lfoot{\bf UFABC-SA}
+%\cfoot{Centro do Rodapé}
+%\rfoot{Direita do Rodapé}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{2pt}
+%\renewcommand\theenumi{(\alph{enumi})} % muda numeração para alpfa numerico
+
+
+
+%%% Ajuste do codigo matalba
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{27,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=6pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams-bytype
+theorems-ams-extended-bytype
+customHeadersFooters
+shapepar
+fixltx2e
+fix-cm
+\end_modules
+\maintain_unincluded_children false
+\language brazilian
+\language_package babel
+\inputencoding utf8
+\fontencoding T1
+\font_roman "beraserif" "default"
+\font_sans "berasans" "default"
+\font_typewriter "beramono" "default"
+\font_math "eulervm" "auto"
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing other 1.5
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine jurabib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 1cm
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 1.5cm
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Institute
+Universidade Federal do ABC
+\end_layout
+
+\begin_layout Title
+Titulo
+\end_layout
+
+\begin_layout Institute
+Universidade Federal do ABC
+\end_layout
+
+\begin_layout Subtitle
+Nome do trabalho
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pgfdeclareimage[height=.8cm]{institution-logo}{logo.png}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+logo{
+\backslash
+pgfuseimage{institution-logo}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Objetivo Geral
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Objetivo
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+zvsdfvsdvg
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

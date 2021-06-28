@@ -1,0 +1,9 @@
+Para configurar o refstyle abrimos o arquivo "/usr/share/texlive/texmf-dist/tex/latex/refstyle/refstyle.cfg"  e editamos as palavra de interesse.
+
+Retira paranteses do \eqref
+
+\usepackage{letltxmacro}
+\LetLtxMacro{\originaleqref}{\eqref}
+\renewcommand{\eqref}{\ref}
+
+

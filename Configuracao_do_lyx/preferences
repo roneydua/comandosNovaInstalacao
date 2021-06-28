@@ -1,0 +1,113 @@
+# LyX 2.3.1 generated this file. If you want to make your own
+# modifications you should do them from inside LyX and save.
+
+Format 24
+
+
+#
+# MISC SECTION ######################################
+#
+
+# The time interval between auto-saves in seconds.
+\autosave 60
+\user_name "pegasus"
+\user_email ""
+\preview on
+
+#
+# SCREEN & FONTS SECTION ############################
+#
+
+\cursor_width 5
+\scroll_below_document true
+\paragraph_markers true
+\mac_like_cursor_movement true
+\macro_edit_style 1
+\screen_font_sizes 5 7 8 9 10 12 14.4 17.26 20.74 24.88
+\single_instance false
+
+#
+# COLOR SECTION ###################################
+#
+
+
+#
+# PRINTER SECTION ###################################
+#
+
+
+#
+# TEX SECTION #######################################
+#
+
+
+#
+# FILE SECTION ######################################
+#
+
+\mouse_middlebutton_paste false
+\completion_inline_delay 0
+\completion_inline_text true
+\completion_popup_delay 0
+\completion_popup_text true
+\completion_minlength 5
+\thesaurusdir_path "/home/pegasus/.goldendict"
+\save_origin true
+
+#
+# PLAIN TEXT EXPORT SECTION ##############################
+#
+
+
+#
+# SPELLCHECKER SECTION ##############################
+#
+
+\use_system_colors true
+\use_tooltip false
+
+#
+# LANGUAGE SUPPORT SECTION ##########################
+#
+
+\spellcheck_continuously true
+\language_package_selection 1
+
+#
+# 2nd MISC SUPPORT SECTION ##########################
+#
+
+\gui_language brazilian
+
+#
+# FORMATS SECTION ##########################
+#
+
+\format "dia" "dia" "DIA" "" "auto" "auto" "vector,zipped=native" "application/x-dia-diagram"
+\format "fen" "fen" "FEN" "" "auto" "auto" "" ""
+\format "fig" "fig" "FIG" "" "auto" "auto" "vector" "application/x-xfig"
+\format "agr" "agr" "Grace" "" "auto" "auto" "vector" ""
+\format "ipe" "ipe" "Ipe" "" "" "ipe" "document,vector" "application/x-ipe"
+\format "excel2" "xlsx" "MS Excel Office Open XML" "" "" "auto" "document" "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+\format "noteedit" "not" "Noteedit" "" "auto" "auto" "vector" ""
+\format "excel" "xls" "Excel spreadsheet" "" "" "auto" "document" "application/vnd.ms-excel"
+\format "gnumeric" "gnumeric" "Gnumeric spreadsheet" "" "" "auto" "document" "application/x-gnumeric"
+\format "oocalc" "ods" "OpenDocument spreadsheet" "" "" "auto" "document" "application/vnd.oasis.opendocument.spreadsheet"
+\format "html_table" "html" "HTML Table (for spreadsheets)" "" "" "auto" "document" "text/html"
+\format "tgif" "obj, tgo" "Tgif" "" "auto" "auto" "vector" "application/x-tgif"
+\default_otf_view_format dvi3
+
+#
+# CONVERTERS SECTION ##########################
+#
+
+\converter "dia" "lyx" "python -tt $$s/lyx2lyx/lyx2lyx -c big5   -o $$o $$i" ""
+\converter "ipe" "eps" "iperender -eps $$i $$o" ""
+\converter "ipe" "pdf2" "iperender -pdf $$i $$o" ""
+\converter "ipe" "pdf" "iperender -pdf $$i $$o" ""
+\converter "ipe" "png" "iperender -png $$i $$o" ""
+
+#
+# COPIERS SECTION ##########################
+#
+

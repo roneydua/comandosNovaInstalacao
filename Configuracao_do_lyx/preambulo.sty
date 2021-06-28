@@ -1,0 +1,132 @@
+%\usepackage{indentfirst}  % primeiro parágrafo com indentação
+\usepackage{graphicx}
+\usepackage{epigraph}
+\usepackage{nomencl}
+\usepackage{fancyhdr}
+\usepackage{afterpage}
+\usepackage[table]{xcolor}
+\usepackage{tocbibind} % adiciona  listas figura tabela ao indice
+\def\nompreamble{\addcontentsline{toc}{chapter}{\nomname}\markboth{\nomname}{\nomname}}
+
+
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-2}%
+    \newpage}
+\newcommand\contracapa{%
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+\date{\today}
+\fancyhead[L,R]{}
+
+%\chead{}
+%\rhead{\materia}
+\fancyfoot[LE,RO]{\includegraphics[height=0.8cm]{/home/roney/Dropbox/Configuracao_do_lyx/rodape.png}}
+
+\fancyfoot[C]{\rmfamily\selectfont\thepage}
+\usepackage[defaultmathsizes,frenchmath]{mathastext}
+%frenchmath
+
+%\rfoot{\includegraphics[width = 10mm]{logo.png}}
+%\rfoot{\includegraphics[height=1.5cm]{/home/roney/Dropbox/Configuração do lyx/UFABC extenso lateral.jpg}}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+%%%%%%%%%%%%% Programas %%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+%%%%%%%%%%%%% Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%
+%%% configuracao das citacoes
+\usepackage{jurabib}
+\jurabibsetup{
+	%pages=always,
+	authorformat={abbrv},%abrevia nome do autor
+	bibformat={numbered}} %numera bibliografia
+%corpo do texto
+\renewcommand{\jbbtasep}{ e } % bta = between two authors sep
+\renewcommand{\jbbfsasep}{, }% bfsa = between first and second author sep
+\renewcommand{\jbbstasep}{ e }% bsta = between second and third author sep
+%bibliografia
+\renewcommand{\bibbtasep}{ ; } %bta = between two authors sep
+\renewcommand{\bibbfsasep}{; } %bfsa = between first and second author sep
+\renewcommand{\bibbstasep}{ ; }%bsta = between second and third author sep
+%editors:
+\renewcommand{\bibbtesep}{ e } %bte = between two editors sep
+\renewcommand{\bibbfsesep}{, }%bfse = between first and second editor sep
+\renewcommand{\bibbstesep}{ e }%bste = between second and third editor sep
+%% configuração da vizualicao da bibliografia
+%nome dos autores
+\renewcommand{\biblnfont}{\MakeUppercase}
+\renewcommand{\bibfnfont}{}
+%editor
+\renewcommand{\bibelnfont}{\textit}
+\renewcommand{\bibefnfont}{\textit}
+%nome do livro
+\renewcommand{\bibtfont}{\textbf}
+\renewcommand{\bibbtfont}{\textbf}
+%nome do jornal
+\renewcommand{\bibjtfont}{}
+%nome do artigo
+\renewcommand{\bibapifont}{\textbf}
+\let\citepvelho\citep
+\renewcommand\citep[1]{\textsc{\citepvelho{#1}}}
+
+%%%%%%%%%%%%% Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%
+%% trocando senos e cossenos para portugues
+\providecommand{\sin}{} \renewcommand{\sin}{\hspace{2pt}\mathrm{sen}\hspace{2pt}}
+\providecommand{\tan}{} \renewcommand{\tan}{\hspace{2pt}\mathrm{tg}\hspace{2pt}}
+\providecommand{\sinh}{} \renewcommand{\sinh}{\hspace{2pt}\mathrm{senh}\hspace{2pt}}
+
+\usepackage{gensymb} %% simbolo degrau
+\usepackage{siunitx}
+%\usepackage{physics}
+%adicona meio espaco nas unidades
+\let\sivelho\si
+\renewcommand\si[1]{\,\sivelho{#1}}
+\usepackage{letltxmacro}
+\LetLtxMacro{\originaleqref}{\eqref}
+\renewcommand{\eqref}{\ref}
+
+
+
+
+\newcommand{\ihat}{\boldsymbol{\hat{\textbf{i}}}}
+\newcommand{\jhat}{\boldsymbol{\hat{\textbf{j}}}}
+\newcommand{\khat}{\boldsymbol{\hat{\textbf{k}}}}
+\newcommand{\vol}{\mathop{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}\nolimits}
+% call the glossaries package
+\renewcommand{\nomgroup}[1]{%
+  \ifthenelse{\equal{#1}{A}}{\item[\huge\textbf{Abreviatura}]}{%
+  \ifthenelse{\equal{#1}{B}}{\item[\huge\textbf{Constantes}]}{}}%
+}
+
+\newcommand{\nomconst}[1][]{\nomenclature[B#1]}
+\newcommand{\nomabrev}[1][]{\nomenclature[A#1]}
+% vetor
+\newcommand{\m}[1]{\mathbf{#1}}
+
+
+
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+  
+
+
+  <head>
+    <title>
+      pt_BR.dic em lyxsvn/dictionaries/trunk/dicts
+     – The LyX Project
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--[if IE]><script type="text/javascript">
+      if (/^#__msie303:/.test(window.location.hash))
+        window.location.replace(window.location.hash.replace(/^#__msie303:/, '#'));
+    </script><![endif]-->
+        <link rel="search" href="/trac/search" />
+        <link rel="help" href="/trac/wiki/TracGuide" />
+        <link rel="alternate" href="/trac/export/41218/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic" type="text/plain" title="Formato Original" />
+        <link rel="start" href="/trac/wiki" />
+        <link rel="stylesheet" href="/trac/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/trac/chrome/common/css/code.css" type="text/css" /><link rel="stylesheet" href="/trac/chrome/common/css/browser.css" type="text/css" />
+        <link rel="prev" href="/trac/browser/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic?rev=37690" title="Revisão 37690" />
+        <link rel="shortcut icon" href="/trac/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/trac/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/trac/search/opensearch" title="Pesquisar The LyX Project" />
+    <script type="text/javascript" src="/trac/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/trac/chrome/common/js/babel.js"></script><script type="text/javascript" src="/trac/chrome/common/js/messages/pt_BR.js"></script><script type="text/javascript" src="/trac/chrome/common/js/trac.js"></script><script type="text/javascript" src="/trac/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/trac/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/trac/chrome/common/js/folding.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".trac-toggledeleted").show().click(function() {
+                  $(this).siblings().find(".trac-deleted").toggle();
+                  return false;
+        }).click();
+        $("#jumploc input").hide();
+        $("#jumploc select").change(function () {
+          this.parentNode.parentNode.submit();
+        });
+          $('#preview table.code').enableCollapsibleColumns($('#preview table.code thead th.content'));
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <h1><a href="https://www.lyx.org/">The LyX Project</a></h1>
+      </div>
+      <form id="search" action="/trac/search" method="get">
+        <div>
+          <label for="proj-search">Pesquisa:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Pesquisa" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/trac/login">Login</a></li><li><a href="/trac/prefs">Preferências</a></li><li><a href="/trac/wiki/TracGuide">Ajuda/Guia</a></li><li class="last"><a href="/trac/about">Sobre o Trac</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first"><a href="/trac/timeline">Histórico</a></li><li><a href="/trac/roadmap">Planejamento</a></li><li class="active"><a href="/trac/browser">Ver Código</a></li><li><a href="/trac/wiki/BugTrackerHome">Visualizar Tíquetes</a></li><li><a href="/trac/search">Pesquisa</a></li><li class="last"><a href="/trac/wiki">Home</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Navegação no Contexto</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/trac/browser/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic?rev=37690" title="Revisão 37690">Revisão Anterior</a></span></li><li><span class="missing">Próxima Revisão &rarr;</span></li><li><a href="/trac/browser/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic?annotate=blame" title="Anotar cada linha com a última revisão de mudança (isso pode consumir bastante tempo...)">Blame</a></li><li><a href="/trac/log/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic">Log de Revisão</a></li><li class="last"><a href="https://www.lyx.org/dictionaries/trunk/dicts/pt_BR.dic">URL do Repositório</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="browser">
+          <h1>
+<a class="pathentry first" href="/trac/browser?order=name" title="Vá para o índice do repositório">source:</a>
+<a class="pathentry" href="/trac/browser/lyxsvn?order=name" title="Visualizar lyxsvn">lyxsvn</a><span class="pathentry sep">/</span><a class="pathentry" href="/trac/browser/lyxsvn/dictionaries?order=name" title="Visualizar dictionaries">dictionaries</a><span class="pathentry sep">/</span><a class="pathentry" href="/trac/browser/lyxsvn/dictionaries/trunk?order=name" title="Visualizar trunk">trunk</a><span class="pathentry sep">/</span><a class="pathentry" href="/trac/browser/lyxsvn/dictionaries/trunk/dicts?order=name" title="Visualizar dicts">dicts</a><span class="pathentry sep">/</span><a class="pathentry" href="/trac/browser/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic?order=name" title="Visualizar pt_BR.dic">pt_BR.dic</a>
+<span class="pathentry sep">@</span>
+  <a class="pathentry" href="/trac/changeset/41218/lyxsvn" title="Visualizar Conjunto de Mudanças 41218">41218</a>
+<br style="clear: both" />
+</h1>
+        <div id="jumprev">
+          <form action="" method="get">
+            <div>
+              <label for="rev">
+                Visualizar revisão:</label>
+              <input type="text" id="rev" name="rev" size="6" />
+            </div>
+          </form>
+        </div>
+        <div id="jumploc">
+          <form action="" method="get">
+            <div class="buttons">
+              <label for="preselected">Visitar:</label>
+              <select id="preselected" name="preselected">
+                <option selected="selected"></option>
+                <optgroup label="branches">
+                  <option value="/trac/browser/lyxsvn/lyx-devel/trunk">lyx-devel/trunk</option><option value="/trac/browser/lyxsvn/www-user/trunk">www-user/trunk</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BooktabBranch">lyx-devel/branches/BooktabBranch</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH-1_2_X">lyx-devel/branches/BRANCH-1_2_X</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_1_1_6">lyx-devel/branches/BRANCH_1_1_6</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_1_3_X">lyx-devel/branches/BRANCH_1_3_X</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_1_4_X">lyx-devel/branches/BRANCH_1_4_X</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_1_5_X">lyx-devel/branches/BRANCH_1_5_X</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_1_6_X">lyx-devel/branches/BRANCH_1_6_X</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_2_0_X">lyx-devel/branches/BRANCH_2_0_X</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_GUII">lyx-devel/branches/BRANCH_GUII</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_MVC">lyx-devel/branches/BRANCH_MVC</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_NATBIB">lyx-devel/branches/BRANCH_NATBIB</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/BRANCH_new_insets">lyx-devel/branches/BRANCH_new_insets</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/CoordBranch">lyx-devel/branches/CoordBranch</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/debugstream">lyx-devel/branches/debugstream</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/dialogbase">lyx-devel/branches/dialogbase</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/gtkdevel">lyx-devel/branches/gtkdevel</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/lyx-1_1_5">lyx-devel/branches/lyx-1_1_5</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/LyX-Team">lyx-devel/branches/LyX-Team</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/obsolete">lyx-devel/branches/obsolete</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/pathswitch">lyx-devel/branches/pathswitch</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/personal">lyx-devel/branches/personal</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/QProcess">lyx-devel/branches/QProcess</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/rae">lyx-devel/branches/rae</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/runlatex">lyx-devel/branches/runlatex</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/string-switch">lyx-devel/branches/string-switch</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/personal/baum">lyx-devel/branches/personal/baum</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/personal/bpeng">lyx-devel/branches/personal/bpeng</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/personal/gerz">lyx-devel/branches/personal/gerz</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/personal/kuemmel">lyx-devel/branches/personal/kuemmel</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/personal/larsbj">lyx-devel/branches/personal/larsbj</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/personal/rgheck">lyx-devel/branches/personal/rgheck</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/personal/sts">lyx-devel/branches/personal/sts</option><option value="/trac/browser/lyxsvn/lyx-devel/branches/personal/younes">lyx-devel/branches/personal/younes</option><option value="/trac/browser/lyxsvn/www-user/branches/help">www-user/branches/help</option><option value="/trac/browser/lyxsvn/www-user/branches/LyX-Project">www-user/branches/LyX-Project</option>
+                </optgroup><optgroup label="tags">
+                  <option value="/trac/browser/lyxsvn/lyx-devel/tags/BooktabBase?rev=13601">lyx-devel/tags/BooktabBase</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/BooktabNewBase?rev=9350">lyx-devel/tags/BooktabNewBase</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/BRANCH_POINT_1_3_X?rev=6043">lyx-devel/tags/BRANCH_POINT_1_3_X</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/BRANCH_POINT_GUII?rev=4216">lyx-devel/tags/BRANCH_POINT_GUII</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/BRANCH_POINT_NOUPDATE?rev=7194">lyx-devel/tags/BRANCH_POINT_NOUPDATE</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/BranchNTag?rev=9173">lyx-devel/tags/BranchNTag</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/CoordNewTag?rev=9296">lyx-devel/tags/CoordNewTag</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/CoordTag?rev=9277">lyx-devel/tags/CoordTag</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/debugstream-merge-1?rev=179">lyx-devel/tags/debugstream-merge-1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_1?rev=262">lyx-devel/tags/lyx-1_1_1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_2?rev=289">lyx-devel/tags/lyx-1_1_2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_3?rev=342">lyx-devel/tags/lyx-1_1_3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_4?rev=526">lyx-devel/tags/lyx-1_1_4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_5fix1?rev=896">lyx-devel/tags/lyx-1_1_5fix1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_5fix2?rev=1135">lyx-devel/tags/lyx-1_1_5fix2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_5pre2?rev=750">lyx-devel/tags/lyx-1_1_5pre2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_5pre3?rev=756">lyx-devel/tags/lyx-1_1_5pre3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_6?rev=1322">lyx-devel/tags/lyx-1_1_6</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_6fix1?rev=1433">lyx-devel/tags/lyx-1_1_6fix1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_6fix2?rev=2011">lyx-devel/tags/lyx-1_1_6fix2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_6fix3?rev=2322">lyx-devel/tags/lyx-1_1_6fix3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_6fix4?rev=3339">lyx-devel/tags/lyx-1_1_6fix4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_6pre1?rev=1167">lyx-devel/tags/lyx-1_1_6pre1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_6pre2?rev=1239">lyx-devel/tags/lyx-1_1_6pre2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_1_6pre3?rev=1296">lyx-devel/tags/lyx-1_1_6pre3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_0?rev=4189">lyx-devel/tags/lyx-1_2_0</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_0pre1?rev=3866">lyx-devel/tags/lyx-1_2_0pre1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_0pre2?rev=3926">lyx-devel/tags/lyx-1_2_0pre2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_0pre3?rev=3937">lyx-devel/tags/lyx-1_2_0pre3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_0pre4?rev=4059">lyx-devel/tags/lyx-1_2_0pre4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_0pre5?rev=4129">lyx-devel/tags/lyx-1_2_0pre5</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_0rc1?rev=4174">lyx-devel/tags/lyx-1_2_0rc1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_1?rev=5032">lyx-devel/tags/lyx-1_2_1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_2?rev=5824">lyx-devel/tags/lyx-1_2_2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_2_3?rev=5926">lyx-devel/tags/lyx-1_2_3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_0?rev=6044">lyx-devel/tags/lyx-1_3_0</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_0pre1?rev=5879">lyx-devel/tags/lyx-1_3_0pre1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_0pre2?rev=5953">lyx-devel/tags/lyx-1_3_0pre2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_0pre3?rev=6006">lyx-devel/tags/lyx-1_3_0pre3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_1?rev=6529">lyx-devel/tags/lyx-1_3_1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_2?rev=6939">lyx-devel/tags/lyx-1_3_2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_3?rev=7827">lyx-devel/tags/lyx-1_3_3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_4?rev=8447">lyx-devel/tags/lyx-1_3_4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_5?rev=9057">lyx-devel/tags/lyx-1_3_5</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_6?rev=10262">lyx-devel/tags/lyx-1_3_6</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_3_7?rev=10748">lyx-devel/tags/lyx-1_3_7</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_0?rev=13309">lyx-devel/tags/lyx-1_4_0</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_0pre1?rev=10329">lyx-devel/tags/lyx-1_4_0pre1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_0pre2?rev=10533">lyx-devel/tags/lyx-1_4_0pre2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_0pre3?rev=10683">lyx-devel/tags/lyx-1_4_0pre3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_0pre4?rev=10797">lyx-devel/tags/lyx-1_4_0pre4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_0pre5?rev=13223">lyx-devel/tags/lyx-1_4_0pre5</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_0pre6?rev=13290">lyx-devel/tags/lyx-1_4_0pre6</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_1?rev=13647">lyx-devel/tags/lyx-1_4_1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_2?rev=14442">lyx-devel/tags/lyx-1_4_2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_3?rev=15109">lyx-devel/tags/lyx-1_4_3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_4_4?rev=17185">lyx-devel/tags/lyx-1_4_4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_5_0alpha1?rev=15941">lyx-devel/tags/lyx-1_5_0alpha1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_5_1?rev=19305">lyx-devel/tags/lyx-1_5_1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_5_2?rev=20753">lyx-devel/tags/lyx-1_5_2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_5_3?rev=22174">lyx-devel/tags/lyx-1_5_3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_5_4?rev=23183">lyx-devel/tags/lyx-1_5_4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_5_5?rev=24720">lyx-devel/tags/lyx-1_5_5</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_5_6?rev=25894">lyx-devel/tags/lyx-1_5_6</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_5_7?rev=27400">lyx-devel/tags/lyx-1_5_7</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_1?rev=27865">lyx-devel/tags/lyx-1_6_1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_2?rev=28772">lyx-devel/tags/lyx-1_6_2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_3?rev=29912">lyx-devel/tags/lyx-1_6_3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_4?rev=31195">lyx-devel/tags/lyx-1_6_4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_4_1?rev=31251">lyx-devel/tags/lyx-1_6_4_1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_4_2?rev=32043">lyx-devel/tags/lyx-1_6_4_2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_5?rev=32367">lyx-devel/tags/lyx-1_6_5</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_6?rev=34424">lyx-devel/tags/lyx-1_6_6</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_6_1?rev=34535">lyx-devel/tags/lyx-1_6_6_1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_7?rev=34899">lyx-devel/tags/lyx-1_6_7</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_8?rev=36298">lyx-devel/tags/lyx-1_6_8</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_9?rev=37502">lyx-devel/tags/lyx-1_6_9</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-1_6_10?rev=38604">lyx-devel/tags/lyx-1_6_10</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx-20000221?rev=563">lyx-devel/tags/lyx-20000221</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_1_5pre1?rev=700">lyx-devel/tags/lyx_1_1_5pre1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_4_5?rev=19203">lyx-devel/tags/lyx_1_4_5</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_5_0?rev=19206">lyx-devel/tags/lyx_1_5_0</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_5_0beta1?rev=17265">lyx-devel/tags/lyx_1_5_0beta1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_5_0beta2?rev=17883">lyx-devel/tags/lyx_1_5_0beta2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_5_0beta3?rev=18393">lyx-devel/tags/lyx_1_5_0beta3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_5_0rc1?rev=18613">lyx-devel/tags/lyx_1_5_0rc1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_5_0rc2?rev=18916">lyx-devel/tags/lyx_1_5_0rc2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0?rev=27335">lyx-devel/tags/lyx_1_6_0</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0alpha1?rev=23864">lyx-devel/tags/lyx_1_6_0alpha1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0alpha2?rev=24446">lyx-devel/tags/lyx_1_6_0alpha2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0beta1?rev=25018">lyx-devel/tags/lyx_1_6_0beta1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0beta2?rev=25075">lyx-devel/tags/lyx_1_6_0beta2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0beta3?rev=25106">lyx-devel/tags/lyx_1_6_0beta3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0beta4?rev=25571">lyx-devel/tags/lyx_1_6_0beta4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0rc1?rev=26057">lyx-devel/tags/lyx_1_6_0rc1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0rc2?rev=26252">lyx-devel/tags/lyx_1_6_0rc2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0rc3?rev=26643">lyx-devel/tags/lyx_1_6_0rc3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0rc4?rev=27070">lyx-devel/tags/lyx_1_6_0rc4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_1_6_0rc5?rev=27175">lyx-devel/tags/lyx_1_6_0rc5</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0?rev=38564">lyx-devel/tags/lyx_2_0_0</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0alpha1?rev=33748">lyx-devel/tags/lyx_2_0_0alpha1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0alpha2?rev=34136">lyx-devel/tags/lyx_2_0_0alpha2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0alpha3?rev=34399">lyx-devel/tags/lyx_2_0_0alpha3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0alpha4?rev=34663">lyx-devel/tags/lyx_2_0_0alpha4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0alpha6?rev=35409">lyx-devel/tags/lyx_2_0_0alpha6</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0beta1?rev=36226">lyx-devel/tags/lyx_2_0_0beta1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0beta2?rev=36752">lyx-devel/tags/lyx_2_0_0beta2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0beta3?rev=37158">lyx-devel/tags/lyx_2_0_0beta3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0beta4?rev=37530">lyx-devel/tags/lyx_2_0_0beta4</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0beta5?rev=37768">lyx-devel/tags/lyx_2_0_0beta5</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0rc1?rev=37865">lyx-devel/tags/lyx_2_0_0rc1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0rc2?rev=38106">lyx-devel/tags/lyx_2_0_0rc2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_0rc3?rev=38330">lyx-devel/tags/lyx_2_0_0rc3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_1?rev=39587">lyx-devel/tags/lyx_2_0_1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_2?rev=40304">lyx-devel/tags/lyx_2_0_2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/lyx_2_0_3?rev=40825">lyx-devel/tags/lyx_2_0_3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/MERGE_1_TO_GUII?rev=4251">lyx-devel/tags/MERGE_1_TO_GUII</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/MERGE_2_TO_GUII?rev=4360">lyx-devel/tags/MERGE_2_TO_GUII</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/new-development-branch?rev=143">lyx-devel/tags/new-development-branch</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/pathswitch-merge-1?rev=195">lyx-devel/tags/pathswitch-merge-1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/personal?rev=13316">lyx-devel/tags/personal</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/rae-1?rev=433">lyx-devel/tags/rae-1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/rae-2?rev=568">lyx-devel/tags/rae-2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/runlatex-merge-1?rev=276">lyx-devel/tags/runlatex-merge-1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/sgi-stl-32-1?rev=361">lyx-devel/tags/sgi-stl-32-1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/sgi-stl-32-2?rev=369">lyx-devel/tags/sgi-stl-32-2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/sgi-stl-32-merge?rev=372">lyx-devel/tags/sgi-stl-32-merge</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/sigc-1?rev=516">lyx-devel/tags/sigc-1</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/sigc-2?rev=520">lyx-devel/tags/sigc-2</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/sigc-3?rev=546">lyx-devel/tags/sigc-3</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/string-switch-finished?rev=159">lyx-devel/tags/string-switch-finished</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_CREATE_1_1_6?rev=1317">lyx-devel/tags/TAG_CREATE_1_1_6</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_CREATE_MVC?rev=1350">lyx-devel/tags/TAG_CREATE_MVC</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_CREATE_NATBIB?rev=1346">lyx-devel/tags/TAG_CREATE_NATBIB</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_CREATE_new_insets?rev=1328">lyx-devel/tags/TAG_CREATE_new_insets</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_HEAD_MERGE_TO_MVC?rev=1759">lyx-devel/tags/TAG_HEAD_MERGE_TO_MVC</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_HEAD_MERGE_TO_NATBIB?rev=2281">lyx-devel/tags/TAG_HEAD_MERGE_TO_NATBIB</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_HEAD_MERGE_TO_new_insets?rev=1704">lyx-devel/tags/TAG_HEAD_MERGE_TO_new_insets</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_MVC_MERGE_FROM_HEAD?rev=1761">lyx-devel/tags/TAG_MVC_MERGE_FROM_HEAD</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_NATBIB_MERGE_FROM_HEAD?rev=2285">lyx-devel/tags/TAG_NATBIB_MERGE_FROM_HEAD</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/TAG_new_insets_MERGE_FROM_HEAD?rev=1509">lyx-devel/tags/TAG_new_insets_MERGE_FROM_HEAD</option><option value="/trac/browser/lyxsvn/lyx-devel/tags/updated-from-HEAD-1?rev=359">lyx-devel/tags/updated-from-HEAD-1</option><option value="/trac/browser/lyxsvn/www-user/tags/new-start?rev=12076">www-user/tags/new-start</option><option value="/trac/browser/lyxsvn/www-user/tags/start?rev=12281">www-user/tags/start</option>
+                </optgroup>
+              </select>
+              <input type="submit" value="Ir!" title="Pula para o caminho preselecionado" />
+            </div>
+          </form>
+        </div>
+      <table id="info" summary="Informações da Revisão">
+        <tr>
+          <th scope="col">Revisão <a href="/trac/changeset/41199/lyxsvn">41199</a>,
+        <span title="4642260 bytes"> 4.4 MB</span>
+        incluída por spitz, <a class="timeline" href="/trac/timeline?from=2018-07-24T14%3A35%3A48%2B02%3A00&amp;precision=second" title="2018-07-24T14:35:48+02:00 na Linha do Tempo">4 meses</a> atrás
+        (<a href="/trac/changeset/41199/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic">diff</a>)</th>
+        </tr>
+        <tr>
+          <td class="message searchable">
+              <p>
+Update the dictionaries<br />
+</p>
+          </td>
+        </tr>
+      </table>
+      <div id="preview" class="searchable">
+        
+    <p>
+        <strong>Previsualização HTML não disponível</strong>, uma vez que o tamanho do arquivo é maior que 262144 bytes.
+      Ao invés disso, tente fazer o <a href="/trac/export/41218/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic">downloading</a> do arquivo.
+    </p>
+
+      </div>
+      <div id="help"><strong>Note:</strong> Veja <a href="/trac/wiki/TracBrowser">TracBrowser</a>
+        para ajuda no uso do navegador do trac.</div>
+      <div id="anydiff">
+        <form action="/trac/diff" method="get">
+          <div class="buttons">
+            <input type="hidden" name="new_path" value="/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic" />
+            <input type="hidden" name="old_path" value="/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic" />
+            <input type="hidden" name="new_rev" />
+            <input type="hidden" name="old_rev" />
+            <input type="submit" value="Visualizar mudanças..." title="Selecionar caminhos (paths) e revisões (revs) para o Diff" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download em outros formatos:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/trac/export/41218/lyxsvn/dictionaries/trunk/dicts/pt_BR.dic">Formato Original</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/trac/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">Powered by <a href="/trac/about"><strong>Trac 0.12.5</strong></a><br />
+        Por <a href="http://www.edgewall.org/">Edgewall Software</a>.</p>
+      <p class="right">Visite o projeto open source Trac em<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

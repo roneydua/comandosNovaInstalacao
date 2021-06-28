@@ -1,0 +1,92 @@
+Colar para criar a capa de trabalhos
+
+
+\begin{titlepage} 
+\begin{center} {\large \textbf {UNIVERSIDADE FEDERAL DO ABC}}\\[0.2cm] {\large Bacharelado em Ciência e Tecnologia}\\[0.2cm] {\large Nome do departamento}\\[0.2cm] {\large Nome do Curso}\\[0.2cm] {\large Nome da disciplina}\\[5.1cm] {\bf \huge TÍTULO DO TRABALHO}\\[5.1cm] {\large Aluno(a):}\\[0.7cm] {\large Professor:}\\[4.1cm] {\large Cidade}\\[0.2cm] {\large Ano} \end{center} \end{titlepage}
+
+outra
+
+\begin{titlepage}  \begin{center} {\large \textbf {UNIVERSIDADE FEDERAL DO ABC}}\\[0cm] {\large Bacharelado em Ciência e Tecnologia}\\[0.2cm] {\large Introdução à Astronáutica}\\[5.4cm] {\bf \huge Telescópio Hubble}\\[5.1cm] {\large Roney Duarte da Silva}\\[9.3 cm]  {\large São Bernardo do Campo -2015}\\[0.2cm] \end{center} \end{titlepage}
+***************************************************
+Para criar um layout para listas de exercícios
+
+Colar no preambulo as seguintes linhas:
+
+\usepackage{fancyhdr}
+
+\renewcommand{\jbbtasep}{ e } 
+%\renewcommand{\jbbfsasep}{ **** }
+\renewcommand{\bibbtasep}{; }         %%%ajuste da bibliográfia
+
+\usepackage{indentfirst}  % primeiro parágrafo com indentação
+
+
+
+\pagestyle{fancy}
+%\lhead{Esquerda do Cabeçalho}
+\chead{matéria}
+\author{Roney Duarte da Silva}
+%\rhead{Direita do Cabeçalho}
+\lfoot{UFABC-SBC}
+%\cfoot{Centro do Rodapé}
+%\rfoot{Direita do Rodapé}
+%\renewcommand{\headrulewidth}{2pt}
+%\renewcommand{\footrulewidth}{2pt}
+%\renewcommand\theenumi{(\alph{enumi})} % muda numeração para alpfa numerico
+
+
+Escolher classe "Artigo de classe padrão(com mais tamanhos de fontes)
+
+
+***************************************************
+Para Criar uma apresentação
+
+%para numerar as figuras
+%\renewcommand\theenumi{(\alph{enumi})} % muda numeração para alpfa numerico
+\setbeamertemplate{caption}[numbered]
+\usepackage{listings}
+\usetheme{Warsaw}
+% or ...
+%\usetheme{Antibes}	% tree outline, neat
+%\usetheme{JuanLesPins}	% like Antibes, with shading
+%\usetheme{Bergen}	% outline on side
+%\usetheme{Luebeck}	% like Warsaw, square sides
+%\usetheme{Berkeley}	% interesting left bar outline
+%\usetheme{Madrid}	% clean, nice.  7/12 page numbers
+%\usetheme{Berlin}	% dots show slide number
+%\usetheme{Malmoe}	% OK, plain, unshaded
+%\usetheme{Boadilla}	% nice, white bg, no top bar
+%\usetheme{Marburg}	% nice, outline on right
+%\usetheme{boxes}	% ???
+%\usetheme{Montpellier}	% tree outline on top, plainish white
+%\usetheme{Copenhagen}	% like Warsaw
+%\usetheme{PaloAlto}	% looks good
+%\usetheme{Darmstadt}	% like Warsaw with circle outline
+%\usetheme{Pittsburgh}
+%\usetheme{default}
+%\usetheme{Rochester}	% like boxy, unshaded warsaw
+%\usetheme{Dresden}	% circle outline on top
+%\usetheme{Singapore}	% purple gradient top
+%\usetheme{Frankfurt}	% like Warsaw with circle outline on top
+%\usetheme{Szeged}
+%\usetheme{Goettingen}	% light purple right bar outline
+%\usetheme{Warsaw}
+%\usetheme{Hannover}	% like Goett with bar on left
+%\usetheme{compatibility}
+%\usetheme{Ilmenau}
+
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+\usecolortheme{beaver}
+%\usecolortheme{seahorse}
+%\usecolortheme{rose}
+
+% seems to fix typewriter font in outline header:
+\usepackage{ae,aecompl}
+
+
+********************
+Colar no nome 
+Roney D. da Silva\\Universidade Federal do ABC, SBC

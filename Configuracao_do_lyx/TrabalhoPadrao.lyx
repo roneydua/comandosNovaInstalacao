@@ -1,0 +1,1060 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /media/Arquivos/Dropbox/Configuracao_do_lyx/
+\textclass extarticle
+\begin_preamble
+\usepackage{indentfirst}  % primeiro parágrafo com indentação
+\usepackage{graphicx}
+\addtolength\textheight{-0\baselineskip}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{afterpage}
+\setlist[itemize]{leftmargin=15mm}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-2}%
+    \newpage}
+%definir mesma fonte para math and text
+\usepackage{mathastext}
+\MTfamily{\ttdefault}\Mathastext
+\date{\today}
+\usepackage{everysel}
+\renewcommand*\familydefault{\ttdefault}
+\EverySelectfont{%
+\fontdimen2\font=0.4em% interword space
+\fontdimen3\font=0.2em% interword stretch
+\fontdimen4\font=0.1em% interword shrink
+\fontdimen7\font=0.1em% extra space
+\hyphenchar\font=`\-% to allow hyphenation
+}
+\lhead{}
+\usepackage{indentfirst}
+\chead{}
+\author{Roney Duarte}
+\rhead{\materia}
+\lfoot{\includegraphics[height=0.8cm]{/media/Arquivos/Dropbox/Configuracao_do_lyx/rodape.png}}
+
+%\rfoot{\includegraphics[width = 10mm]{logo.png}}
+%\rfoot{\includegraphics[height=1.5cm]{/media/Arquivos/Dropbox/Configuração do lyx/UFABC extenso lateral.jpg}}
+\renewcommand{\headrulewidth}{0.02pt}
+\renewcommand{\footrulewidth}{0.02pt}
+%%%%%%%%%%%%% Programas %%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\lstset{language=Python,
+    frame=TTBB,
+    showstringspaces=false,
+    basicstyle=\ttfamily\small,
+    emph=[1]{for,end,break,as},emphstyle=[1]\color{red}, %some words to emphasise
+    commentstyle=\itshape
+}
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    frame=TTBB,
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={ \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+%%%%%%%%%%%%% Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%
+%%% configuracao das citacoes
+\usepackage{jurabib}
+\jurabibsetup{
+authorformat={abbrv},%abrevia nome do autor
+bibformat={numbered}} %numera bibliografia
+%corpo do texto
+\renewcommand{\jbbtasep}{ e } % bta = between two authors sep
+\renewcommand{\jbbfsasep}{, }% bfsa = between first and second author sep
+\renewcommand{\jbbstasep}{ e }% bsta = between second and third author sep
+%bibliografia
+\renewcommand{\bibbtasep}{ ; } %bta = between two authors sep
+\renewcommand{\bibbfsasep}{; } %bfsa = between first and second author sep
+\renewcommand{\bibbstasep}{ ; }%bsta = between second and third author sep
+%editors:
+\renewcommand{\bibbtesep}{ e } %bte = between two editors sep
+\renewcommand{\bibbfsesep}{, }%bfse = between first and second editor sep
+\renewcommand{\bibbstesep}{ e }%bste = between second and third editor sep
+%% configuração da vizualicao da bibliografia
+%nome dos autores
+\renewcommand{\biblnfont}{\MakeUppercase}
+\renewcommand{\bibfnfont}{}
+%editor
+\renewcommand{\bibelnfont}{\textit}
+\renewcommand{\bibefnfont}{\textit}
+%nome do livro
+\renewcommand{\bibtfont}{\textbf}
+\renewcommand{\bibbtfont}{\textbf}
+%nome do jornal
+\renewcommand{\bibjtfont}{}
+%nome do artigo
+\renewcommand{\bibapifont}{\textbf}
+
+%%%%%%%%%%%%% Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%
+%% trocando senos e cossenos para portugues
+\providecommand{\sin}{} \renewcommand{\sin}{\hspace{2pt}\mathrm{sen}\hspace{2pt}}
+\providecommand{\tan}{} \renewcommand{\tan}{\hspace{2pt}\mathrm{tg}\hspace{2pt}}
+\providecommand{\sinh}{} \renewcommand{\sinh}{\hspace{2pt}\mathrm{senh}\hspace{2pt}}
+
+\usepackage{gensymb} %% simbolo degrau
+\usepackage{siunitx}
+\usepackage{physics}
+
+
+
+
+\newcommand{\ihat}{\boldsymbol{\hat{\textbf{i}}}}
+\newcommand{\jhat}{\boldsymbol{\hat{\textbf{j}}}}
+\newcommand{\khat}{\boldsymbol{\hat{\textbf{k}}}}
+\newcommand{\vol}{\mathop{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}\nolimits}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams-bytype
+theorems-ams-extended-bytype
+\end_modules
+\maintain_unincluded_children false
+\language brazilian
+\language_package babel
+\inputencoding utf8
+\fontencoding T1
+\font_roman "default" "default"
+\font_sans "berasans" "default"
+\font_typewriter "default" "default"
+\font_math "eulervm" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing double
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine jurabib
+\cite_engine_type authoryear
+\biblio_style jurabib
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 1cm
+\headsep 1cm
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 1.5cm
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+autor}{Roney D.
+ da Silva}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+titulo}{Obtenção do Modelo Matemático Linear do Motor de Indução do Túnel
+ de Vento Pelo Método de Resposta em Frequência.}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+curso}{Engenharia Aeroespacial}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+materia}{Iniciação Científica}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+professor}{Dr.
+ Diego P.
+ F.
+ Correa}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+escola}{Universidade Federal do ABC}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} {
+\backslash
+large 
+\backslash
+textbf{ 
+\backslash
+textsc {
+\backslash
+escola}}}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+[0cm] {
+\backslash
+large 
+\backslash
+textsc{
+\backslash
+curso}}
+\backslash
+
+\backslash
+[.2cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+textsc {
+\backslash
+materia}}
+\backslash
+
+\backslash
+[5.4cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rule{
+\backslash
+linewidth}{.1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.4cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Large{
+\backslash
+textsc{
+\backslash
+titulo}}}
+\backslash
+
+\backslash
+[0cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rule{
+\backslash
+linewidth}{1mm}
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}{0.5
+\backslash
+textwidth} 
+\backslash
+begin{flushleft} 
+\backslash
+large 
+\backslash
+emph{Autor:}
+\backslash
+
+\backslash
+ Roney D da Silva  
+\backslash
+end{flushleft} 
+\backslash
+end{minipage} ~ 
+\backslash
+begin{minipage}{0.45
+\backslash
+textwidth} 
+\backslash
+begin{flushright} 
+\backslash
+large 
+\backslash
+emph{Orientador:} 
+\backslash
+
+\backslash
+ 
+\backslash
+professor 
+\backslash
+end{flushright} 
+\backslash
+end{minipage}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vfill {
+\backslash
+large São Bernardo do Campo -- 2018} 
+\backslash
+end{center}  
+\backslash
+end{titlepage} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+large{
+\backslash
+autor}
+\backslash
+
+\backslash
+ [3cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Large{
+\backslash
+textsc{
+\backslash
+titulo}}}
+\backslash
+
+\backslash
+[5cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}{0.5
+\backslash
+textwidth} 
+\backslash
+begin{flushleft} 
+\backslash
+end{flushleft} 
+\backslash
+end{minipage} ~ 
+\backslash
+begin{minipage}{0.45
+\backslash
+textwidth} 
+\backslash
+begin{flushright} 
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+Relatório final de iniciação científica com informações do projeto realizado
+ com bolsa PIBIC e 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright} 
+\backslash
+end{minipage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[2cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+Orientado pelo professor 
+\backslash
+professor 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Centro de Engenharia, Modelagem e Ciências Sociais Aplicadas -- CECS
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vfill {
+\backslash
+large São Bernardo do Campo -- 2018} 
+\backslash
+end{center}  
+\backslash
+end{titlepage} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addtocounter{page}{-2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Nesta iniciação científica, com uso de microcontroladores de baixo custo
+ agindo como gerador de onda e osciloscópio, aplicou-se técnicas de controle
+ no domínio do tempo e frequência, a fim de obter o modelo matemático –
+ na forma de uma função de transferência – do motor de indução do túnel
+ de vento da Universidade Federal do ABC, campus de São Benardo do Campo.
+ 
+\end_layout
+
+\begin_layout Abstract
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\begin_layout Plain Layout
+
+%inserir lista de figuras
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+listoffigures
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+tableofcontents{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addtocounter{page}{-2}% 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/media/Arquivos/Dropbox/faculdade/bibliografia"
+options "jurabib"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+Algorítimos
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting{analitica.m}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting{sol_analitica.m}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting{upwind_cons_firt.m}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting{upwind_nao_cons_firt.m}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting{prob_3.m}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting{prob_4.m}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting{prob_5.m}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
