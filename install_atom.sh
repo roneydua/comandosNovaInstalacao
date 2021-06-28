@@ -11,5 +11,6 @@ apt install -f
 # Para recuperar rode o comando
 # [Creditos](https://stackoverflow.com/a/37625610/12298547)
 runuser - roney -c 'apm install --packages-file Dropbox/ComandosNovaInstalacao/atom_instalacao/pacotes.list'
-./installEigen.sh
+echo "instalando Eigen"
+./install_eigen.sh
 exit
