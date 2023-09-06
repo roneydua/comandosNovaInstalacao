@@ -7,8 +7,6 @@ Quando precisamos formatar o PC uma tarefa muito chata é ter que instalar todos
 <!-- /TOC -->
 
 # Utilização individual de cada script
-- `auto_completar.sh` -  Habilita o autocompletar no Shell terminal.
-- `corrige_problema_sudo.sh` - Adiciona o usuário suda a lista de usuários.
 - `latex_install.sh` - Instala Lyx e texlive.
 - `python_instalação.sh` - Instala a IDE Spyder e o python3 além de outras bibliotecas python.
 - `install_java.sh` - Instala o Oracle Java.

@@ -1,7 +1,7 @@
 #! /bin/bash
-#sudo usermod -a -G dialout $USER 
+sudo usermod -a -G dialout $USER 
 cd
-apt-get install git python-pip 
+
 pip install pyserial 
 mkdir -p ~/Arduino/hardware/espressif 
 cd ~/Arduino/hardware/espressif  

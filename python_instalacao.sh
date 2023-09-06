@@ -1,8 +1,11 @@
 #! /bin/bash
-apt-get install python3 python3-pip -y;
-apt-get install python3-numpy python3-matplotlib python3-scipy python3-pandas python3-simpy -y;
-apt-get install	python3-pyqt5 python3-pyqt5.qtopengl python3-pyqt5.qtquick -y;
-apt-get install spyder3 rope_py3k pyserial -y;
-apt-get install
 
+sudo apt-get install python3 python3-pip python3-venv cm-super -y
+
+export PYTHONPATH=${PYTHONPATH}:${HOME}/.local/bin/
+export PYTHONPATH=${PYTHONPATH}:${HOME}/.local/bin
+
+pip install numpy sympy matplotlib scipy control autopep8 pycodestyle spyder pyvisa pymeasure ipywidgets PyQt5 h5py lvm_read -U
+
+echo "execute o arquivo install_spyder.sh como usuário"
 exit
