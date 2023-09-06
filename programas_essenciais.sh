@@ -5,8 +5,6 @@ apt-get install clementine synaptic tmux hplip-gui vlc p7zip pdftk youtube-dl co
 apt-get install okular okular-extra-backends wavemon kolourpaint shotwell inkscape gimp cutecom tree doxygen -y
 
 
-# various modifications
-
 # for gtk3+ (necessário para utilizar no wxpython) 
 
 apt-get install libgtk-3-dev
