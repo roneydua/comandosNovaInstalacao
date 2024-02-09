@@ -3,9 +3,12 @@
 echo "install kicad"
 #apt install kicad* -y
 
+add-apt-repository ppa:kicad/kicad-dev-nightly
+apt update
+apt install kicad-nightly -y
 apt install flatpak -y
 
-flatpak install --from https://flathub.org/repo/appstream/org.kicad.KiCad.flatpakref -y
+#flatpak install --from https://flathub.org/repo/appstream/org.kicad.KiCad.flatpakref -y
 
 # não ha necessidade de instalar por aqui.  Melhor intalar pelo gerenciador do proprio kicad
 # echo "mkdir Connector_JST.3dshapes && cd Connector_JST.3dshapes"
@@ -39,7 +42,8 @@ flatpak install --from https://flathub.org/repo/appstream/org.kicad.KiCad.flatpa
 
 echo "Install Freecad ..."
 # flathub-beta repo is not enabled by default
-flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
-flatpak install flathub-beta org.freecadweb.FreeCAD
+add-apt-repository ppa:flatpak/stable
+apt update
+apt install flatpak
 
 exit
