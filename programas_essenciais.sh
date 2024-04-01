@@ -2,8 +2,9 @@
 
 apt-get install clementine synaptic tmux hplip-gui vlc p7zip pdftk yt-dlp conky system-config-printer dconf-editor git thunderbird birdtray variety xournal qtikz maxima wxmaxima octave jstest-gtk -y
 
-apt-get install okular okular-extra-backends wavemon kolourpaint shotwell inkscape gimp cutecom tree doxygen -y
+apt-get install okular okular-extra-backends wavemon kolourpaint shotwell inkscape gimp cutecom tree doxygen baobab tesseract-ocr qpdf -y
 
+ 
 
 # for gtk3+ (necessário para utilizar no wxpython) 
 
