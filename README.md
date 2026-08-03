@@ -24,3 +24,7 @@ O script `main.sh` obteve exito nas distribuições mais recentes do Debian 64-b
 Configura os programas:
 - Copia as configurações do Conky na pasta conky.
 - Configura o tmux
+
+
+-- Kticz -> não tem configuração adicional
+-- Qtizk -> adicionar /media/Arquivos/Dropbox/doutorado/tese/images/pstricks_folder/qtikz.sh em Menu/General/PDF Latex command

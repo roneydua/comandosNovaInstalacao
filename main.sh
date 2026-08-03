@@ -5,6 +5,7 @@
 ./programas_essenciais.sh
 #programas latex
 ./install_eigen.sh
+# ./install_openconnect_vpn.sh
 # ./python_instacao.sh
 #./latex_install.sh
 # configura o conky
