@@ -1,25 +1,51 @@
 #! /bin/sh
 
-apt-get install clementine synaptic tmux hplip-gui vlc p7zip pdftk yt-dlp conky system-config-printer dconf-editor git thunderbird birdtray variety xournal qtikz maxima wxmaxima octave jstest-gtk -y
+sudo apt-get install clementine -y
+sudo apt-get install synaptic -y
+sudo apt-get install hplip-gui -y
+sudo apt-get install vlc -y
+sudo apt-get install p7zip -y
+sudo apt-get install pdftk-java -y
+sudo apt-get install yt-dlp -y
+sudo apt-get install -y
+sudo apt-get install system-config-printer -y
+sudo apt-get install dconf-editor -y
+sudo apt-get install git -y
+sudo apt-get install thunderbird -y
+sudo apt-get install variety -y
+sudo apt-get install xournal -y
+sudo apt-get install qtikz -y
+sudo apt-get install maxima -y
+sudo apt-get install wxmaxima -y
+sudo apt-get install octave -y
+sudo apt-get install jstest-gtk -y
 
-apt-get install okular okular-extra-backends wavemon kolourpaint shotwell inkscape gimp cutecom tree doxygen baobab tesseract-ocr qpdf remmina -y
+sudo apt-get install okular -y
+sudo apt-get install okular-extra-backends -y
+sudo apt-get install wavemon -y
+sudo apt-get install kolourpaint -y
+sudo apt-get install shotwell -y
+sudo apt-get install inkscape -y
+sudo apt-get install gimp -y
+sudo apt-get install cutecom -y
+sudo apt-get install tree -y
+sudo apt-get install doxygen -y
+sudo apt-get install baobab -y
+sudo apt-get install tesseract-ocr -y
+sudo apt-get install qpdf remmina -y
 
- 
+# for gtk3+ (necessário para utilizar no wxpython)
 
-# for gtk3+ (necessário para utilizar no wxpython) 
-
-apt-get install libgtk-3-dev
+sudo apt-get install libgtk-3-dev -y
 
 # install snap
-apt install snapd -y
-snap install core -y
+sudo apt install snapd -y
+snap install core
 
-
-snap install bitwarden
-
+#snap install bitwarden
 
 # ./install_kicad_freecad.sh
-./latex_install.sh
+#./latex_install.sh
 echo "intalando  tmux e fonts-powerline "
-apt install tmux fonts-powerline -y
+sudo apt install tmux fonts-powerline -y
 exit

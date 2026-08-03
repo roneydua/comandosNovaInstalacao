@@ -1,7 +1,7 @@
 #! /bin/bash
 echo "$(lsb_release -is)"
 distro="$(lsb_release -is)"
-sudo apt-get install fonts-lyx qtikz -y
+sudo apt-get install fonts-lyx qtikz ktikz -y
 if [ $distro = "Ubuntu" ]; then
     echo "Pc with Ubuntu"
   apt install texlive-pstricks* biber texlive-science* texlive-lang-portuguese chktex latexmk ipe  lyx texlive-fonts-extra -y
