@@ -1,3 +1,5 @@
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -90,6 +92,7 @@ plugins=(
 	fasd
 	tmux
 	mongocli
+	git virtualenv
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -127,3 +130,30 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="$HOME/personal_programs:$PATH"
+
+
+fastfetch
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/pegasus/.local/bin:$PATH"
+export PATH="/home/pegasus/.local/bin:$PATH"
+
+
+# Iniciar a estrutura de IA local
+alias iastart="sudo systemctl start ollama && docker start open-webui"
+
+# Parar tudo completamente e liberar a memória do PC
+alias iastop="docker stop open-webui && sudo systemctl stop ollama"
+
+# Verificar o status atual
+alias iastatus="sudo systemctl status ollama && docker ps"
+
+# Define o prefixo e sufixo da informação do ambiente virtual
+ZSH_THEME_VIRTUAL_ENV_PROMPT_PREFIX="("
+ZSH_THEME_VIRTUAL_ENV_PROMPT_SUFFIX=")"
+
+# Exibe o ambiente virtual no canto direito do terminal
+RPROMPT='$(virtualenv_prompt_info)'
+
