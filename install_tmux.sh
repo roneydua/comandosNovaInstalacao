@@ -25,9 +25,7 @@ echo "Configure Guake by opening Preferences → Apperance. Then, uncheck "Use t
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 
-
-
-
-cp ./tmux_zsh_files/.tmux.conf ./tmux_zsh_files/.zshrc ~/
+cp tmux_zsh_files/.tmux.conf ~/
+cp tmux_zsh_files/.zshrc ~/
 
 echo "run ctrl+b shift+i to reload"
